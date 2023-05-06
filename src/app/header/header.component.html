@@ -1,0 +1,35 @@
+<mat-toolbar >
+    <button (click)="menuclick()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Designer's Hub</span>
+    <span class="example-spacer"></span>
+    <div class="flex-c">
+      <ul>
+           <li>
+                <button mat-icon-button class="example-icon settings-icon" aria-label="Example icon-button with settings icon">
+                  <mat-icon>settings</mat-icon>
+                </button>
+           </li>
+         <li>
+                <button [matMenuTriggerFor]="person" mat-icon-button class="example-icon" aria-label="Example icon-button with help icon">
+                  <mat-icon>help_outline</mat-icon>
+                </button>
+                <mat-menu #person="matMenu">
+                    <button mat-menu-item>
+                        <mat-icon>person</mat-icon> <a href="uhuggui.com">click</a> </button>
+                  </mat-menu>
+                
+         </li>
+           <li>
+                <button [matMenuTriggerFor]="menu" mat-icon-button class="example-icon" aria-label="Example icon-button with person icon">
+                    <mat-icon>person_outline</mat-icon>
+                  </button>
+                  <mat-menu #menu="matMenu">
+                    <button mat-menu-item>
+                        <mat-icon>logout</mat-icon>  Log out</button>
+                  </mat-menu>
+           </li>
+      </ul>
+    </div>
+  </mat-toolbar>

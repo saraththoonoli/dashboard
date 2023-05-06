@@ -1,0 +1,15 @@
+mat-toolbar{
+    background-color: rgb(3, 29, 77);
+    color: white;
+}
+
+.flex-c{
+    width: 100%;
+   
+}
+.flex-c ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}

@@ -1,0 +1,18 @@
+.cardd{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 10px ;
+
+}
+.table{
+    margin: 20px 10px;
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}

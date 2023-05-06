@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dashboardd';
+
+  sideopen:boolean=true
+
+  toggle(){
+    this.sideopen = !this.sideopen
+
+  }
 }

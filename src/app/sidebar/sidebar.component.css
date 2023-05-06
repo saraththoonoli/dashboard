@@ -1,0 +1,38 @@
+.pro{
+    background-color: rgb(66, 21, 21);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    align-items: center;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    color: white;
+    padding: 9px;
+}
+h3{
+    color: bisque;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 1px;
+}
+mat-icon{
+    padding-right: 5px;
+}
+a:hover{
+    background-color: rgb(17, 7, 14);
+}
+img{
+    border-radius: 25px;
+}
+.profile{
+    align-items: center;
+    text-align: center;
+}
+b{
+    font-size: 18px;
+}

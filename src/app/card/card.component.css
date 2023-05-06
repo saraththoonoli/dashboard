@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    
+}
+mat-icon{
+    font-size: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+h3{
+    font-weight: bold;
+}
+h2{
+    font-weight: bolder;
+}
+.orange{
+    background-color: rgb(246, 169, 28);
+}
+.green{
+    background-color: rgb(33, 164, 33);
+}
+.yellow{
+    background-color: rgb(162, 162, 29);
+}
+.red{
+    background-color: rgb(163, 32, 32);
+}
+.blue{
+    background-color: rgb(34, 34, 152);
+}
